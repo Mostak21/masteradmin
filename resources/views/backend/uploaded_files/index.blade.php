@@ -4,7 +4,7 @@
 <div class="rit-titlebar text-left mt-2 mb-3">
 	<div class="row align-items-center">
 		<div class="col-md-6">
-			<h1 class="h3">All uploaded files</h1>
+			<h1 class="h3">All Uploaded files</h1>
 		</div>
 		<div class="col-md-6 text-md-right">
 			<a href="{{ route('uploaded-files.create') }}" class="btn btn-primary">

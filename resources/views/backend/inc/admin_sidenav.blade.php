@@ -89,6 +89,25 @@
                     </ul>
                 </li>
 
+                <!-- Customers -->
+                <li class="rit-side-nav-item">
+                    <a href="#" class="rit-side-nav-link">
+                        <i class="las la-user-friends rit-side-nav-icon"></i>
+                        <span class="rit-side-nav-text">User</span>
+                        <span class="rit-side-nav-arrow"></span>
+                    </a>
+                    <ul class="rit-side-nav-list level-2">
+                        <li class="rit-side-nav-item">
+                            <a href="{{ route('users.index') }}" class="rit-side-nav-link">
+                                <span class="rit-side-nav-text">User list</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+
 
             </ul>
 

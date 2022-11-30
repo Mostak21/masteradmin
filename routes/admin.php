@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CityController;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\DistrictController;
@@ -70,5 +71,8 @@ use App\Http\Controllers\CategoryController;
             Route::get('/users/login/{id}', [UserController::class,'login'])->name('users.login');
             Route::get('/users/destroy/{id}', [UserController::class,'destroy'])->name('users.destroy');
             Route::post('/bulk-user-delete', [UserController::class,'bulk_customer_delete'])->name('bulk-user-delete');
+
+ //article router
+            Route::resource('articles',ArticleController::class);
 
         });
